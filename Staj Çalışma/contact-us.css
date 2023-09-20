@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bize-ulasin {
+    margin: 5%;
+    background-color: grey;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 25px;
+    max-width: 45rem;
+}
+.bize-ulasin .bg a{
+    text-decoration: none;
+    color: rgb(200, 94, 94);;
+}
+.bize-ulasin .bg{
+    font-size: x-large;
+    display: inline-block;
+    margin: 5%;
+} 
+.header .navbar .cont {
+    background-color: rgb(183, 180, 180, 0.5);
+    padding: 10px 10px;
+    border-radius: 25px;  
+}
+.maps {
+    margin: 5%;
+    display: flex;
+}

@@ -1,0 +1,477 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(https://wallpapertag.com/wallpaper/full/b/1/c/836325-plain-blue-screen-wallpaper-1920x1080-1920x1080-for-android-40.jpg);
+    background-repeat: repeat;
+}
+.header {
+    margin-top: 1%;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 10rem;
+    height: 5Rem;
+    border-radius: 40px;
+    padding: 0.5%;
+    background-color:   rgb(49, 49, 49);
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 5px 5px rgb(255, 255, 255, 0.3);
+}
+.header a{
+    margin-top: 1%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+.header .butonn {
+    background-color: rgb(200, 94, 94);
+    padding: 13px 20px;
+    border-radius: 45%;
+    color: white;
+    font-weight: bold;
+}
+.header .navbar{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    margin: 0 1rem;
+    margin-top: 2.2%;
+}
+.header .navbar a {
+    color: white;
+    margin: 2px 10px;
+}
+.header .navbar .home {
+    background-color: rgb(183, 180, 180, 0.5);
+    padding: 10px 10px;
+    border-radius: 25px;
+}
+.ana{
+    margin-left: 12%;
+    margin-top: 8%;
+    align-items: center;
+    display: flex;
+}
+.ana .metn{
+    color: white;
+    margin-top: -10%;
+    margin-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ana .metn h3 {
+    font-size: 2rem;
+}
+.ana .metn h1 {
+    font-size: 4rem;
+    margin-top: 2%;
+}
+.ana .metn h4 {
+    font-weight: normal;
+    color: rgb(219, 219, 219);
+    margin-top: 3%;
+}
+.ana .assassin a img{
+    width: 100%;
+    border-radius: 15%;
+}
+.ana .assassin {
+    margin-top: -5%;
+}
+.kutu {
+    justify-content: center;
+    margin-top: 15%;
+    display: flex;
+}
+.kutu div{
+    border-radius: 20%;
+    text-align: center;
+    width: 17rem;
+    height: 18rem;
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 20px 10px rgba(47, 44, 44, 0.151);
+}
+.kutu div a img{
+    margin-top: 20%;
+}
+.kutu div a {
+    font-family: Arial, Helvetica, sans-serif, bold;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+}
+.metn-2{
+    margin-left: 10%;
+    margin-top: 8%;
+    margin-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.metn-2 h3 {
+    color: rgb(200, 94, 94);
+}
+.metn-2 h1 {
+    color: black;
+    font-size: 3rem;
+}
+.metn-2 .buton a{
+    text-decoration: none;
+    background-color: rgb(200, 94, 94);
+    padding: 20px 20px;
+    border-radius: 45%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 90%;
+}
+.games{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.games1 {
+    border-radius: 20%;
+    width: 17rem;
+    height: 20rem;
+    background-color: rgb(220, 219, 219);
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 20px 10px rgba(47, 44, 44, 0.151);
+}
+.games1 a img{
+    border-radius: 20%;
+    width: 100%;
+}
+.games .games1 a{
+    text-decoration: none;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.games .games1 h6{
+    color: gray;
+    margin-left: 9%;
+    margin-top: 8%;
+}
+.games .games1 h4{
+    margin-left: 9%;
+    color: black;
+}
+.metinn{
+    display: flex;
+    margin-top: 10%;
+    text-align: center;
+}
+.metinn .metin-kutu{
+    border-radius: 12.5%;
+    height: 30rem;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 35%;
+}
+.metinn .metin-kutu div {
+    margin-left: 8%;
+    text-align: justify;
+    margin-top: 18%;
+}
+.metinn .metin-kutu2 {
+    margin-top: 4%;
+    margin-right: 5%;
+    background-color: white;
+    border-radius: 12.5%;
+    height: 30rem;
+    width: 35%;
+}
+.metinn .metin-kutu2 div {
+    margin-left: 8%;
+    text-align: justify;
+    margin-top: 15%;
+}
+.metinn .metin-kutu h4 {
+    color: rgb(200, 94, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+.metinn .metin-kutu h2{
+    margin-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin-top: 5%;
+    margin-block-end: 5%;
+}
+.metinn .metin-kutu .butonn {
+    text-decoration: none;
+    background-color: rgb(200, 94, 94); ;
+    padding: 20px 20px;
+    border-radius: 50%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.metinn .metin-kutu h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-right: 5%;
+    font-size: large;
+    margin-block-end: 10%;
+}
+.metinn .metin-kutu2 h4{
+    color: rgb(200, 94, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+.metinn .metin-kutu2 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-right: 5%;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+/* Form */
+.metinn .metin-kutu2 .form input{
+    width: 90%;
+    margin-top: 6%;
+    height: 50px;
+    padding: 0 0 15 0px;
+    background-color: rgb(240, 240, 240);
+}
+
+.metinn .metin-kutu2 button {
+    width: 25%;
+    margin-left: -23%;
+    background-color: rgb(200, 94, 94);
+    padding: 15px 45px;
+}
+/* Form Bitiş */
+/* */
+
+/* Search */
+.metn form input{
+    width: 80%;
+    margin-top: 6%;
+    height: 50px;
+    padding: 0 0 15 0px;
+}
+.metn button{
+    width: 25%;
+    margin-left: -23%;
+    background-color: rgb(200, 94, 94);
+    padding: 15px 45px;
+}
+.ss {
+    display: flex;
+    height: 4rem;
+    padding: 0 22px 22px;
+    background-color: rgb(240, 240, 240);
+    margin-top: 10%;
+    border-top-left-radius: 1000%;
+    border-top-right-radius: 1000%;
+}
+.ss h4{
+    margin-top: 2.7%;
+    display: block;
+    margin-left: 29%;
+}
+
+/* Product Details CSS */
+
+.baslik {
+    color: white;
+    text-align: center;
+    margin-top: 8%;
+}
+.baslik h1{
+    font-size: 3rem;
+}
+.add {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.add a img{
+    width: 36rem;
+    border-radius: 10%;
+    margin-top: 15%;
+}
+.add .text {
+    margin-left: 10%;
+    margin-top: 10%;
+    color: white;
+}
+.add .text input{
+    border-radius: 100%;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.add .text .butonn{
+    margin-left: 3%;
+    background-color: rgb(200, 94, 94);
+    padding: 20px 30px;
+    border-radius: 35px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.add .text h3 {
+    font-size: xx-large;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.add .text h4 {
+    color: rgb(234, 234, 234);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-block-end: 4%;
+}
+.add .text p {
+    margin-block-start: 2%;
+    margin-top: 2%;
+    font-size: large;
+    color: rgb(224, 224, 224);
+}
+.add .text p a {
+    text-decoration: none;
+    color: rgb(252, 131, 131);
+}
+.text-2{
+    display: inline-block;
+    text-align: left;
+    width: 80rem;
+    align-items: center;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 20rem;
+    border-radius: 30px;
+}
+.text-2 h1{
+    color: gray;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+.text-2 h1 a {
+    text-decoration: none;
+    color: black;
+}
+.text-2 .desc{
+    text-decoration: none;
+    background: none;
+    border-radius: 15px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+.text-2 p {
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media only screen and (max-width: 1008px) {
+    .header{
+        align-items: center;
+    }
+    .header .navbar{
+        display: contents;
+    }
+    .add {
+        flex-direction: column;
+    }
+    .add img {
+        width: 50%;
+        height: 50%;
+    }
+    .text-2{
+        align-items: center;
+        width: 38rem;
+        height: 28rem;
+    }
+  }
+  @media only screen and (max-width: 690px) {
+    .header {
+        flex-direction: column;
+        margin-block-end: 40%;
+        height: 17rem;
+    }
+    .ana{
+        flex-direction: column;
+    }
+    .ana .assassin img{
+        margin-top: 25%;
+        margin-left: -7%;
+        height: 35rem;
+    }
+    .kutu {
+        flex-direction: column;
+        align-items: center;
+    }
+    .kutu .kutu-1 {
+        margin: 5%;
+    }
+    .kutu .kutu-2 {
+        margin: 5%;
+    }
+    .kutu .kutu-3 {
+        margin: 5%;
+    }
+    .kutu .kutu-4 {
+        margin: 5%;
+    }
+    .games {
+        flex-direction: column;
+        align-items: center;
+    }
+    .games .games1 {
+        margin-top: 5%;
+    }
+    .metinn{
+        flex-direction: column;
+        width: 70rem;
+    }
+    .metn h3{
+        margin-top: 15%;
+    }
+    .text-2{
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+  } 
+.active {
+    font-size: 30px;
+}
+.yapiskan {
+    position: fixed;
+    margin-left: 82%;
+    margin-top: 2%;
+    background-color: antiquewhite;
+    width: 17em;
+    height: 10rem;
+    box-shadow: -5px 5px 5px rgba(47, 44, 44, 0.5);
+    border-radius: 25px;
+}
+.yapiskan .y-metin {
+    margin: 5%;
+}
+.yapiskan .y-metin a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+}
+.yapiskan .y-metin img{
+    width: 2rem;
+}

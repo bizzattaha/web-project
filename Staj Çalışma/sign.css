@@ -1,0 +1,96 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar .butonnn {
+    background-color: rgb(183, 180, 180, 0.5);
+    padding: 10px 10px;
+    border-radius: 25px;
+}
+.giriss {
+    background-color: white;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    height: 21rem;
+    width: 45rem;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 5px rgb(255, 255, 255, 0.4);
+}
+.giriss .login-sign{
+    padding: 5%;
+    font-size: 2rem;
+}   
+.giriss .login-sign a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+.giriss .inp input{
+    width: 25rem;
+    height: 3rem;
+    border-radius: 10px;
+    text-align: center;
+    font-size: medium;
+}
+.buton {
+    margin-block-end: 3%;
+    margin-top: 3%;
+    border-radius: 20px;
+    width: 10rem;
+    height: 2.5rem;
+    font-size: x-large;
+    color: red;
+    font-weight: bold;
+    background-color: black;
+}
+.kayıtt .login-sign{
+    padding: 5%;
+    font-size: 2rem;
+}   
+.kayıtt .login-sign button{
+    border-radius: 30px;
+    width: 7rem;
+    height: 3rem;
+    font-size: x-large;
+    color: red;
+    background-color: black;
+}
+.giriss .login-sign button{
+    border-radius: 30px;
+    width: 7rem;
+    height: 3rem;
+    font-size: x-large;
+    color: red;
+    background-color: black;
+}
+.kayıtt .inp input{
+    width: 25rem;
+    height: 3rem;
+    border-radius: 10px;
+    text-align: center;
+    font-size: medium;
+}
+.buton {
+    margin-block-end: 3%;
+    margin-top: 3%;
+    border-radius: 20px;
+    width: 10rem;
+    height: 2.5rem;
+    font-size: x-large;
+    color: red;
+    font-weight: bold;
+    background-color: black;
+}
+.kayıtt {
+    background-color: white;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    height: 34rem;
+    width: 45rem;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 5px rgb(255, 255, 255, 0.4);
+}
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="sign.css">
+    <title>LUGX</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#"><img style="margin-left: 6%; margin-top: -2%"
+                src="https://templatemo.com/templates/templatemo_589_lugx_gaming/assets/images/logo.png" alt=""></a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a class="ourshop" href="our-shop.html">Our Shop</a>
+            <a class="pro" href="Product Details.html">Product Details</a>
+            <a class="cont" href="contact-us.html">Contact Us</a>
+            <a class="butonnn" id="asd" href="sign.html">SIGN IN</a>
+        </nav>
+    </header>
+
+
+    <div class="kayıtt" id="kayıtt">
+        <div class="login-sign">
+            <button onclick="giriş()" href="">LOGİN</button> |
+            <button onclick="kayıt()" href="">SİGN</button>
+        </div>
+
+        <div class="exp"></div>
+
+        <div class="inp">
+            <input type="text" name="ad" placeholder="Ad Soyad" id="ad" required>
+            <div id="adError" style="color: red"></div>
+            <input type="text" name="kullanıcı_adı" placeholder="Kullanıcı Adı" id="kullanıcı_adı">
+            <div id="kadıError" style="color: red"></div>
+            <input type="mail" name="eposta" placeholder="E-Posta" id="maill">
+            <div id="mailError" style="color: red"></div>
+            <input type="password" name="şifre" placeholder="Şifre" id="sifre">
+            <div id="sifreError" style="color: red"></div>
+            <input type="password" name="şifrek" placeholder="Tekrar Şifre" id="sifrek">
+            <div id="ksifreError" style="color: red"></div>
+        </div>
+
+        <button class="buton" id="kayıt_ol" onclick="loginkontrol()">Kayıt Ol</button>
+        <div id="başarılı" style="color: green"></div>
+    </div>
+
+    <div class="giriss" id="giriss" style="display: none;">
+        <div class="login-sign">
+            <button class="giriş" id="giriş" onclick="giriş()" href="">LOGİN</button> |
+            <button class="kayıt" id="kayıt" onclick="kayıt()" href="">SİGN</button>
+        </div>
+
+        <div class="exp">
+            <p>Create an account</p>
+        </div>
+
+        <div class="inp">
+            <input type="text" name="" placeholder="Kullanıcı Adı" id="">
+            <input type="password" name="" placeholder="Şifre" id="">
+        </div>
+
+        <button class="buton">Giriş</button>
+    </div>
+
+
+
+    <div id="pazar-conteiner">
+
+    </div>
+
+
+    <div class="ss">
+        <h4>Copyright © 2048 LUGX Gaming Company. All rights reserved. Design: TemplateMo</h4>
+    </div>
+
+</body>
+<script src="login.js"></script>
+
+</html>
