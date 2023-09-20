@@ -14,7 +14,7 @@ Benimle aşağıdaki platformlardan iletişime geçebilirsiniz:
 
 - GitHub: [[GitHub/bizzattaha](GitHub-linki)]
 - LinkedIn: [[LinkedIn/BilalKarabulut](https://www.linkedin.com/in/bilalkarabulut/)]
-- E-posta: [bizzattaha@gmail.com](mailto:bizzattaha@gmail.com)
+- E-posta: [bizzattaha@gmail.com](mailto:bizzattaha@gmail.com)]
 
 ## Teşekkürler
 
