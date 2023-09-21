@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+    text-align: center;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-right: 15%;
+    margin-left: 15%;
+    top: 0;
+    z-index: 1000;
+}
+.header a{
+    color: black;
+    margin-top: 1.3%;
+    font-size: x-large;
+}
+.navbar a{
+    font-size: large;
+    color: black;
+    margin: 0 1rem;
+}
+.anasayfa{
+    font-size: x-large;
+    justify-content: space-between;
+    margin-top: 12%;
+    text-align: left;
+    display: flex;
+}
+.anasayfa .metin{
+    margin-left: -3%;
+}
+.anasayfa .foto{
+    margin-right: 8%;
+    margin-top: -5%;
+    border-radius: 50%;
+    height: 25%;
+    width: 30%;
+}
+.anasayfa .contact{
+    margin-top: 2%;
+    background: black;
+    width: 10rem;
+    height: 2rem;
+}
+section{
+    margin-left: 5%;
+    width: 10%;
+    height: 5%;
+}
+section a{
+    display: block;
+}
+.contact{
+    background: #655dff;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+}
+.contact:hover{
+    background: #016ABC;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+}
+.anasayfa .metin .contact a{
+    color: white;
+    font-size: large;
+}
+.metin2{
+    margin-top: 15%;
+    text-align: center;
+}
+.about2{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 6%;
+    text-align: center;
+    display: flex;
+}
+.about2 img{
+    border-radius: 35%;
+    height: 25%;
+    width: 35%;
+}
+.about-metin{
+    width: 50%;
+    height: 50%;
+    margin-left: 5%;
+    text-align: left;
+    font-size: 25px;
+}
+.cv{
+    display: flex;
+    margin-top: -15%;
+    margin-left: 43%;
+    text-align: center
+}
+.contact a{
+    color: white;
+}
+.skills{
+    display: flex;
+}
+.skil{
+    justify-content: center;
+    display: flex;
+}
+
+
+.ss{
+    background: #34324f;
+    display: flex;
+    margin-top: 10%;
+}
+.ss .name{
+    margin-top: 5%;
+    margin-left: 18%;
+    margin-right: 10%;
+    width: 10%;
+}
+.ss .xxx{
+    margin-top: 5%;
+    margin-right: 10%;
+    display: flex;
+}
+.xxx p a {
+    color: white;
+}
+.ss .socialmm{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+#footer {
+    background: #f7f8f9;
+    color: #45505b;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 10%;
+}
+
+#footer h3 {
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+#footer p {
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+
+#footer .social-links {
+    margin: 0 0 40px 0;
+}
+
+#footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #0563bb;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+    background: #0678e3;
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer .copyright {
+    margin: 0 0 5px 0;
+}
+
+#footer .credits {
+    font-size: 13px;
+}
