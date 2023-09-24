@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+:root{
+    --main-color: #e84242;
+    --black-color: #0e0e0e;
+    --border: 0.1rem solid rgba(255,255,255,0.1);
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--main-color);
+    height: 200hw;
+}
+section{
+    padding: 3.5rem 7%;
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 2rem 3.75rem;
+    border-radius: 30rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: black;
+}
+/*Header Start */
+.header .logo img{
+    height: 8rem;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 1rem 7%;
+    border-radius: 30rem;
+    box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: black;
+    border-bottom: 0.1rem solid transparent;
+}
+.header .navbar .active,
+.header .navbar a:hover {
+    border-color: black;
+    padding-bottom: 0.5rem;
+}
+.header .buttons button{
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    background-color: transparent;
+}
+.header .menu h3{
+    font-size: 7rem;
+}
+.home{
+    min-height: 100vh;
+    background-image: url(https://images7.alphacoders.com/596/596343.jpg);
+    background: cover;
+    display: flex;
+    align-items: center;
+}
+.home .content{
+    max-width: 60rem;
+}
+.home .content h3{
+    font-size: 6rem;
+    color: white;
+}
+.home .content p{
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #ccc;
+}
+/*Header End */
+
+.menu .box-container {
+    display: flex;
+    gap: 1.5rem;
+}
+.menu .box-container .box img{
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+}
+.menu2{
+    background-color: rgb(255, 255, 255);
+}
+.menu2 h3{
+    font-size: 3rem;
+}
+.menu2 .menu2-conteiner .about-1 h5{
+    font-style: bold;
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+}
